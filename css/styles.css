@@ -20,6 +20,11 @@ body {
     --modal_background-color: #FCFCFC;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -162,8 +167,6 @@ img {
 }
 
 .project-point {
-    margin: 0px;
-    padding: 0px;
     width: calc((100% - 48px) / 3);
 }
 
