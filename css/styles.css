@@ -24,6 +24,11 @@ body {
     width: 1158px;
     margin: 0;
     }
+
+img {
+    display: block;
+}
+
 .navigation-list {
     display: flex;
     align-items: center;
@@ -173,6 +178,14 @@ body {
     background-color: var(--pressed_state-color);
 }
 
+.section-objectives {
+    padding: 120px 0;
+}
+
+.list-point-objectives {
+    width: calc((100%-72px)/4);
+}
+
 .sub-headline {
     color: var(--dark-color);
     text-align: center;
@@ -181,6 +194,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .visually-hidden {
@@ -202,10 +216,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
   }
-.doing-section {
-    background-color: var(--white_background-color);
-}
 
 .text-objectives {
     color: var(--text-color);
@@ -213,28 +225,50 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.doing-section {
+    background-color: var(--white_background-color);
+    padding-bottom: 120px;
+}
+
+.list-point-doing {
+    width: calc((100%-48px)/3);
+}
+
 .team-section {
     background: #F4F4FD;
+    padding: 120px 0;
 }
-.list-no {
+.list-team {
     background-color: #FFFFFF;
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+    }
+
+.name-team {
+    padding: 32px 0px;
 }
+
 .team-peaple-name {
     color: var(--dark-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    text-align: center;
+    margin-bottom: 8px;
     }
 .team-position {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .footer {
-    background-color: var(--hero_background-color);    
+    background-color: var(--hero_background-color);
+    padding: 100px 0;    
 }
 .footer-navigation-logo {
     color: var(--primary_brand-color);
@@ -245,6 +279,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footerspan {
@@ -256,6 +292,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
-
 
