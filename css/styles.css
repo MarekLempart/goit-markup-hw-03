@@ -122,6 +122,11 @@ img {
     font-style: normal;
     }
 
+.section-project {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filter-button {
     color: var(--primary_brand-color);
     background-color: #F4F4FD;
@@ -146,9 +151,6 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-/*.portfolio-section-container {
-
-}*/
 
 .project-tittle {
     color: var(--dark-color);
@@ -166,10 +168,7 @@ img {
 
 .hero-section {
     background-color: var(--hero_background-color);
-    width: 1440px;
-    height: 600px;
-    padding: 188px 0;
-
+    padding: 188px 0px;
 }
 .main-headline {
     color: #FFF;
@@ -191,12 +190,10 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
     display: block;
-    min-width: 169;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
-    padding: 16px 32px;
-    margin-left: 636px;
 }
 .main-headline-button:hover,
 .main-headline-button:focus {
@@ -208,7 +205,7 @@ img {
 }
 
 .list-point-objectives {
-    width: calc((100% - 72px) /4);
+    width: calc((100% - 72px) / 4);
 }
 
 .sub-headline {
@@ -257,7 +254,7 @@ img {
 }
 
 .list-point-doing {
-    width: calc((100% - 48px) /3);
+    width: calc((100% - 48px) / 3);
 }
 
 .team-section {
@@ -266,7 +263,7 @@ img {
 }
 .list-team {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) /4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     }
 
