@@ -184,7 +184,7 @@ img {
 }
 
 .project-point {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-section-container {
@@ -252,7 +252,7 @@ img {
 }
 
 .list-point-objectives {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .sub-headline {
@@ -290,7 +290,7 @@ img {
 }
 
 .list-point-doing {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 /*Studio Team Section no. 4 Styles*/
@@ -301,7 +301,7 @@ img {
 }
 .list-team {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     }
 
